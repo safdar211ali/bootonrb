@@ -22,9 +22,9 @@
       <%= content_tag_for(:tr, @users) do |user| %>
             <td><%= user.name %></td>
             <td><%= user.status %></td>
-            <td><%= user.usertype %></td>
-           <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            <td><%= user.usertype %>
+           <td><%= link_to '<span class=" glyphicon glyphicon-edit"></span>'.html_safe, edit_user_path(user)%> |
+       <%= link_to '<span class=" glyphicon glyphicon-remove"></span>'.html_safe, user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       <% end %>
     </tbody>
   </table>
