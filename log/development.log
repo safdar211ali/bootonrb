@@ -2931,3 +2931,47 @@ Processing by UsersController#index as HTML
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
   Rendered users/index.html.erb within layouts/application (1.6ms)
 Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-07 23:31:46 +0500
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (2.7ms)
+  Rendered users/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 58ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-07 23:31:49 +0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2016-02-07 23:31:51 +0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/_form.html.erb (2.8ms)
+  Rendered users/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 78ms (Views: 77.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-07 23:32:02 +0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-07 23:32:08 +0500
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (3.2ms)
+  Rendered users/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-07 23:32:13 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.8ms)
