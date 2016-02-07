@@ -1251,3 +1251,76 @@ Processing by UsersController#index as HTML
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
   Rendered users/index.html.erb within layouts/application (1.4ms)
 Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-07 23:02:02 +0500
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2016-02-07 23:02:02 +0500

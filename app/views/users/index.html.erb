@@ -12,10 +12,9 @@
       <tr>
             <th>Name</th>
             <th>Status</th>
-            <th>Usertype</th>
-            <th></th>
-        <th></th>
-        <th></th>
+            <th>User type</th>
+            <th colspan="">Action</th>
+
       </tr>
     </thead>
 
@@ -24,8 +23,7 @@
             <td><%= user.name %></td>
             <td><%= user.status %></td>
             <td><%= user.usertype %></td>
-            <td><%= link_to 'Show', user %></td>
-        <td><%= link_to 'Edit', edit_user_path(user) %></td>
+           <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       <% end %>
     </tbody>
