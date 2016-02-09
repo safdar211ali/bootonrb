@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :set_user, only: [:show, :edit, :update, :destroy,:delete]
 
   # GET /users
   # GET /users.json
@@ -68,6 +68,12 @@ end
 
   # DELETE /users/1
   # DELETE /users/1.json
+def delete
+  @users = User.all
+  respond_to do |format|
+      format.js
+  end
+end
   def destroy
     @user.destroy
     respond_to do |format|

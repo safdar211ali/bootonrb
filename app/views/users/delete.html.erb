@@ -1,0 +1,26 @@
+<div class="modal-dialog " role="document">
+  <div class="modal-content">
+    <div class="modal-header modal-head">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h5 class="modal-title" id="exampleModalLabel"><%= controller.action_name.capitalize %> User</h5>
+    </div>
+    <div class="modal-body">
+
+<!--show user data-->
+
+<dl class="dl-horizontal">
+  <dt>Name:</dt>
+  <dd><%= @user.name %></dd>
+
+  <dt>Status:</dt>
+  <dd><%= @user.status %></dd>
+
+  <dt>Usertype:</dt>
+  <dd><%= @user.usertype %></dd>
+
+</dl>
+<!--end user data-->
+
+    </div>
+  </div>
+</div>
