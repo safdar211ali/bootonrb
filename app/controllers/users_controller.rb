@@ -26,6 +26,9 @@ end
 
   # GET /users/1/edit
   def edit
+    respond_to do |format|
+      format.js
+    end
   end
 
   # POST /users
@@ -40,6 +43,7 @@ end
       else
         format.html { render :index }
         format.json { render json: @user.errors, status: :unprocessable_entity }
+        format.js {render :index}
 
       end
     end
@@ -48,14 +52,16 @@ end
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update
+    @users = User.all
     respond_to do |format|
       if @user.update(user_params)
         format.html { redirect_to users_path, notice: 'User was successfully updated.' }
         format.json { head :no_content }
         format.js
       else
-        format.html { render action: 'edit' }
+        format.html { render :index }
         format.json { render json: @user.errors, status: :unprocessable_entity }
+        format.js {render :index}
       end
     end
   end
@@ -65,7 +71,7 @@ end
   def destroy
     @user.destroy
     respond_to do |format|
-      format.html { redirect_to users_url }
+      format.html { redirect_to users_url, notice: 'User was successfully Deleted.'  }
       format.json { head :no_content }
     end
   end
