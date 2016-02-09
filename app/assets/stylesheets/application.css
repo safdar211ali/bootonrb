@@ -11,3 +11,18 @@
  *= require_self
  *= require_tree .
  */
+
+
+.new-user{
+    padding: 20px;
+    border:1px solid #428bca;
+
+}
+
+.modal-head{
+    background-color: #428bca;
+    color: #ffffff;
+    height: 50px;
+}
+
+
