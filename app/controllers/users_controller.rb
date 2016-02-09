@@ -8,7 +8,7 @@ class UsersController < ApplicationController
     @user = User.new
     respond_to do |format|
       format.html
-      format.json
+      format.js
     end
 end
   # GET /users/1
