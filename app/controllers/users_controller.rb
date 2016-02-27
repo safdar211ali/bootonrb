@@ -29,6 +29,7 @@ end
   # GET /users/1/edit
   def edit
     respond_to do |format|
+      format.html
       format.js
     end
   end
@@ -58,11 +59,14 @@ end
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update
-    @users = User.all
+
     respond_to do |format|
       if @user.update(user_params)
-        format.html { redirect_to users_path, notice: 'User was successfully updated.' }
-        format.json { head :no_content }
+        @users = User.all
+        format.html
+        # { redirect_to users_path, notice: 'User was successfully updated.' }
+        format.json
+        # { head :no_content }
         format.js
       else
         format.html { render :index }
