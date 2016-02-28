@@ -20,7 +20,7 @@
 
       </dl>
       <div class="modal-footer">
-        <%= link_to 'Delete',@user,method: :delete, class: "btn btn-danger" %>
+        <%= link_to 'Delete',@user,method: :delete, class: "btn btn-danger",remote:true %>
         <%= link_to 'Cancel','#', class: "btn btn-primary",data: {dismiss: "modal"} %>
       </div>
       <!--end user data-->

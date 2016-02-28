@@ -51850,3 +51850,1018 @@ Processing by UsersController#update as JS
   Rendered users/_index.html.erb (2.9ms)
   Rendered users/update.js.erb (3.7ms)
 Completed 200 OK in 126ms (Views: 5.4ms | ActiveRecord: 115.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-28 06:57:10 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 433ms (Views: 402.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-02-28 06:57:11 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/ali/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/ali/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/ali/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (33.4ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (82.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:17 +0500
+
+
+Started GET "/users/62/delete" for 127.0.0.1 at 2016-02-28 06:57:18 +0500
+Processing by UsersController#delete as JS
+  Parameters: {"id"=>"62"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "62"]]
+  Rendered users/_delete.html.erb (1.3ms)
+  Rendered users/delete.js.erb (6.8ms)
+Completed 200 OK in 35ms (Views: 31.8ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/62" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TK8Hc6cg3oPrwqP6V+eL+1RBSK+r0nssAvcL/S3J3q0=", "id"=>"62"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "62"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (19.9ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 62]]
+  [1m[35m (79.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/users
+Completed 302 Found in 103ms (ActiveRecord: 99.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-28 06:57:22 +0500
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:56 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:57 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:57 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:57 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:57 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:57 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:57 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-28 06:58:57 +0500
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 83ms (Views: 79.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-28 07:01:54 +0500
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-28 07:02:13 +0500
+
+
+Started GET "/users/61/delete" for 127.0.0.1 at 2016-02-28 07:02:22 +0500
+Processing by UsersController#delete as JS
+  Parameters: {"id"=>"61"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "61"]]
+  Rendered users/_delete.html.erb (0.5ms)
+  Rendered users/delete.js.erb (1.2ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/61" for 127.0.0.1 at 2016-02-28 07:02:26 +0500
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TK8Hc6cg3oPrwqP6V+eL+1RBSK+r0nssAvcL/S3J3q0=", "id"=>"61"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "61"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 61]]
+  [1m[36m (84.0ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 103ms
+
+ActionView::MissingTemplate (Missing template users/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ali/Sites/bootonrb/app/views"
+  * "/home/ali/.rvm/gems/ruby-2.0.0-p643/gems/bootstrap-sass-extras-0.0.6/app/views"
+):
+  app/controllers/users_controller.rb:89:in `destroy'
+
+
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 76ms (Views: 74.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-02-28 07:03:42 +0500
+
+
+Started GET "/users/37/delete" for 127.0.0.1 at 2016-02-28 07:03:44 +0500
+Processing by UsersController#delete as JS
+  Parameters: {"id"=>"37"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "37"]]
+  Rendered users/_delete.html.erb (0.6ms)
+  Rendered users/delete.js.erb (1.3ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/37" for 127.0.0.1 at 2016-02-28 07:03:47 +0500
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TK8Hc6cg3oPrwqP6V+eL+1RBSK+r0nssAvcL/S3J3q0=", "id"=>"37"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "37"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 37]]
+  [1m[36m (144.2ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 148ms
+
+ActionView::MissingTemplate (Missing template users/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ali/Sites/bootonrb/app/views"
+  * "/home/ali/.rvm/gems/ruby-2.0.0-p643/gems/bootstrap-sass-extras-0.0.6/app/views"
+):
+  app/controllers/users_controller.rb:89:in `destroy'
+
+
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 81ms (Views: 77.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-02-28 07:04:42 +0500
+
+
+Started GET "/users/36/delete" for 127.0.0.1 at 2016-02-28 07:04:44 +0500
+Processing by UsersController#delete as JS
+  Parameters: {"id"=>"36"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "36"]]
+  Rendered users/_delete.html.erb (0.7ms)
+  Rendered users/delete.js.erb (1.6ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/36" for 127.0.0.1 at 2016-02-28 07:04:46 +0500
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TK8Hc6cg3oPrwqP6V+eL+1RBSK+r0nssAvcL/S3J3q0=", "id"=>"36"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "36"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 36]]
+  [1m[36m (208.8ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 236ms
+
+ActionView::MissingTemplate (Missing template users/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ali/Sites/bootonrb/app/views"
+  * "/home/ali/.rvm/gems/ruby-2.0.0-p643/gems/bootstrap-sass-extras-0.0.6/app/views"
+):
+  app/controllers/users_controller.rb:90:in `destroy'
+
+
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 80ms (Views: 76.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-28 07:05:56 +0500
+
+
+Started GET "/users/35/delete" for 127.0.0.1 at 2016-02-28 07:05:59 +0500
+Processing by UsersController#delete as JS
+  Parameters: {"id"=>"35"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "35"]]
+  Rendered users/_delete.html.erb (0.7ms)
+  Rendered users/delete.js.erb (1.4ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/35" for 127.0.0.1 at 2016-02-28 07:06:01 +0500
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TK8Hc6cg3oPrwqP6V+eL+1RBSK+r0nssAvcL/S3J3q0=", "id"=>"35"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "35"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 35]]
+  [1m[36m (89.4ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 94ms
+
+ActionView::MissingTemplate (Missing template users/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/ali/Sites/bootonrb/app/views"
+  * "/home/ali/.rvm/gems/ruby-2.0.0-p643/gems/bootstrap-sass-extras-0.0.6/app/views"
+):
+  app/controllers/users_controller.rb:91:in `destroy'
+
+
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-02-28 07:07:30 +0500
+
+
+Started GET "/users/34/delete" for 127.0.0.1 at 2016-02-28 07:07:32 +0500
+Processing by UsersController#delete as JS
+  Parameters: {"id"=>"34"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "34"]]
+  Rendered users/_delete.html.erb (1.1ms)
+  Rendered users/delete.js.erb (2.0ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/users/34" for 127.0.0.1 at 2016-02-28 07:07:36 +0500
+Processing by UsersController#destroy as JS
+  Parameters: {"id"=>"34"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "34"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 34]]
+  [1m[36m (88.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_index.html.erb (2.4ms)
+  Rendered users/destroy.js.erb (3.6ms)
+Completed 200 OK in 97ms (Views: 5.5ms | ActiveRecord: 89.2ms)
+
+
+Started GET "/users/32/delete" for 127.0.0.1 at 2016-02-28 07:07:39 +0500
+Processing by UsersController#delete as JS
+  Parameters: {"id"=>"32"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "32"]]
+  Rendered users/_delete.html.erb (0.5ms)
+  Rendered users/delete.js.erb (1.4ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/users/32" for 127.0.0.1 at 2016-02-28 07:07:42 +0500
+Processing by UsersController#destroy as JS
+  Parameters: {"id"=>"32"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "32"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 32]]
+  [1m[36m (84.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_index.html.erb (1.1ms)
+  Rendered users/destroy.js.erb (1.7ms)
+Completed 200 OK in 90ms (Views: 3.6ms | ActiveRecord: 84.9ms)
+
+
+Started GET "/users/31/delete" for 127.0.0.1 at 2016-02-28 07:07:45 +0500
+Processing by UsersController#delete as JS
+  Parameters: {"id"=>"31"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "31"]]
+  Rendered users/_delete.html.erb (0.5ms)
+  Rendered users/delete.js.erb (1.2ms)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/users/31" for 127.0.0.1 at 2016-02-28 07:07:46 +0500
+Processing by UsersController#destroy as JS
+  Parameters: {"id"=>"31"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "31"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 31]]
+  [1m[36m (83.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_index.html.erb (0.6ms)
+  Rendered users/destroy.js.erb (1.6ms)
+Completed 200 OK in 111ms (Views: 25.7ms | ActiveRecord: 84.1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-28 07:08:42 +0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (57.3ms)
+  Rendered users/_new.html.erb (58.2ms)
+  Rendered users/new.js.erb (59.3ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-02-28 07:08:49 +0500
+Processing by UsersController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"safdar Ali", "status"=>"Allowed", "usertype"=>"Admin"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (14.0ms)[0m  INSERT INTO "users" ("created_at", "name", "status", "updated_at", "usertype") VALUES (?, ?, ?, ?, ?)  [["created_at", Sun, 28 Feb 2016 02:08:49 UTC +00:00], ["name", "safdar Ali"], ["status", "Allowed"], ["updated_at", Sun, 28 Feb 2016 02:08:49 UTC +00:00], ["usertype", "Admin"]]
+  [1m[36m (117.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_index.html.erb (2.9ms)
+  Rendered users/create.js.erb (4.0ms)
+Completed 200 OK in 142ms (Views: 6.0ms | ActiveRecord: 131.6ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-28 07:08:51 +0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (3.3ms)
+  Rendered users/_new.html.erb (3.8ms)
+  Rendered users/new.js.erb (4.6ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-02-28 07:08:59 +0500
+Processing by UsersController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"safdar alig", "status"=>"Blocked", "usertype"=>"New"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "name", "status", "updated_at", "usertype") VALUES (?, ?, ?, ?, ?)  [["created_at", Sun, 28 Feb 2016 02:08:59 UTC +00:00], ["name", "safdar alig"], ["status", "Blocked"], ["updated_at", Sun, 28 Feb 2016 02:08:59 UTC +00:00], ["usertype", "New"]]
+  [1m[36m (140.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_index.html.erb (1.4ms)
+  Rendered users/create.js.erb (2.9ms)
+Completed 200 OK in 149ms (Views: 4.8ms | ActiveRecord: 141.1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-28 07:09:01 +0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (3.2ms)
+  Rendered users/_new.html.erb (3.8ms)
+  Rendered users/new.js.erb (4.5ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-02-28 07:09:11 +0500
+Processing by UsersController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"safdar", "status"=>"Allowed", "usertype"=>"Admin"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "name", "status", "updated_at", "usertype") VALUES (?, ?, ?, ?, ?)  [["created_at", Sun, 28 Feb 2016 02:09:11 UTC +00:00], ["name", "safdar"], ["status", "Allowed"], ["updated_at", Sun, 28 Feb 2016 02:09:11 UTC +00:00], ["usertype", "Admin"]]
+  [1m[36m (134.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_index.html.erb (2.0ms)
+  Rendered users/create.js.erb (2.7ms)
+Completed 200 OK in 144ms (Views: 4.7ms | ActiveRecord: 135.3ms)
+
+
+Started GET "/users/63/edit" for 127.0.0.1 at 2016-02-28 07:09:15 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"63"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "63"]]
+  Rendered users/_form.html.erb (30.7ms)
+  Rendered users/_new.html.erb (31.6ms)
+  Rendered users/edit.js.erb (35.5ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/63" for 127.0.0.1 at 2016-02-28 07:09:19 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"safdar Ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"63"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "63"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "status" = ?, "updated_at" = ? WHERE "users"."id" = 63  [["status", "Blocked"], ["updated_at", Sun, 28 Feb 2016 02:09:19 UTC +00:00]]
+  [1m[36m (101.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_index.html.erb (2.2ms)
+  Rendered users/update.js.erb (3.3ms)
+Completed 200 OK in 111ms (Views: 5.2ms | ActiveRecord: 102.4ms)

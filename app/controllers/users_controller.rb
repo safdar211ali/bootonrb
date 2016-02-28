@@ -81,14 +81,19 @@ end
 def delete
   @users = User.all
   respond_to do |format|
+    format.html
       format.js
   end
 end
   def destroy
     @user.destroy
+    @users = User.all
     respond_to do |format|
-      format.html { redirect_to users_url, notice: 'User was successfully Deleted.'  }
-      format.json { head :no_content }
+      format.js
+      format.html
+      # { redirect_to users_url, notice: 'User was successfully Deleted.'  }
+      format.json
+      # { head :no_content }
     end
   end
 
