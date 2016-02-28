@@ -48,7 +48,8 @@ end
         format.js
         # { render action: 'show', status: :created, location: @user }
       else
-        format.html { render :index }
+        format.js { render :new }
+        format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
         # format.js {render :index}
 
@@ -69,9 +70,10 @@ end
         # { head :no_content }
         format.js
       else
-        format.html { render :index }
+        format.js {render :new}
+        format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
-        format.js {render :index}
+
       end
     end
   end

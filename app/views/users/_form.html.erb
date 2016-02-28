@@ -9,7 +9,18 @@
 
 <!--FORM-->
 <%= form_for(@user, html: { class: "form-horizontal", role: "form",style: "display:inline;" ,remote:true}) do |f| %>
+            <% if @user.errors.any? %>
+                <div class="alert alert-danger alert-dismissable" id="error_explanation" role="alert">
+                  <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4><%= pluralize(@user.errors.count, "error") %> prohibited this product from being saved:</h4>
 
+                  <ul>
+                    <% @user.errors.full_messages.each do |msg| %>
+                        <li><%= msg %></li>
+                    <% end %>
+                  </ul>
+                </div>
+            <% end %>
 
   <div class="form-group">
     <%= f.label :name, class: "col-sm-2 control-label" %>
@@ -24,7 +35,7 @@
     </div>
   </div>
   <div class="form-group">
-    <%= f.label 'User type', class: "col-sm-2 control-label" %>
+    <%= f.label :usertype, class: "col-sm-2 control-label" %>
     <div class="col-sm-10">
       <%= f.select :usertype,['Admin','New'],{prompt:'Select user type'}, class: "form-control" %>
     </div>
