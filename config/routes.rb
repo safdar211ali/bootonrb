@@ -1,4 +1,5 @@
 Bootonrb::Application.routes.draw do
+  get "angularjs/index"
   resources :users do
     member do
       get 'delete'
