@@ -1,4 +1,5 @@
 Bootonrb::Application.routes.draw do
+  get 'views'=> "visuals#index", via: :get
   match 'angularjs'=>"angularjs#index",via: :get
   resources :users do
     member do

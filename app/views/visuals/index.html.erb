@@ -1,0 +1,28 @@
+
+<div  ng-app="mainApp" ng-controller="myController">
+<p><a href="#newStudent">New Student</a></p>
+<p><a href="#showStudents">View Student</a></p>
+<div ng-view></div>
+
+</div>
+<script>
+  var app = angular.module('mainApp', ['ngRoute']);
+  app.config(['$routeProvider', function ($routeProvider) {
+    $routeProvider.when('/newStudent', {templateUrl: '<%=image_path('addStudent.html.erb')%>'}).
+    when('/showStudents', {templateUrl: '<%=image_path( 'viewStudents.html.erb') %>'}).
+    otherwise({redirectTo: '/newStudent'});
+  }]);
+
+  app.controller('myController', function ($scope) {
+    $scope.users = [];
+    $scope.save = function (obj) {
+      $scope.user = {
+        name: 'Safdar Ali',
+        email: 'safdar211@gmail.com',
+        password: 'ali'
+      }
+      $scope.users.push(obj);
+    }
+
+  });
+</script>
