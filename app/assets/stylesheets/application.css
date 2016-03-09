@@ -60,3 +60,13 @@
     background-color: #66afe9;
     border-radius: 5px 5px 0 0;
 }
+
+
+
+.loginboundry{
+    border: 1px solid #9a9a9a;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+
+}
