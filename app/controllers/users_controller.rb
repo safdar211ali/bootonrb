@@ -3,13 +3,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    @users = User.all
-    # render json:@users
-    @user = User.new
-    respond_to do |format|
-      format.html
-      format.js
-    end
+
 end
   # GET /users/1
   # GET /users/1.json
@@ -62,7 +56,7 @@ end
 
     respond_to do |format|
       if @user.update(user_params)
-        @users = User.all
+
         format.html
         # { redirect_to users_path, notice: 'User was successfully updated.' }
         format.json

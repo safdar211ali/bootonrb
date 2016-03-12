@@ -1,4 +1,5 @@
 Bootonrb::Application.routes.draw do
+  get 'jsonusers'=> "jsonuserdata#index",via: :get
   get 'angusers/new' => 'angusers#new',via: :get
   get 'angusers' => "angusers#index",via: :get
   get 'login'=> "login#index",via: :get
