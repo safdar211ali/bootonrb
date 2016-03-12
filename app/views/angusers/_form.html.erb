@@ -1,0 +1,37 @@
+<%= form_for(@anguser, html: { class: "form-horizontal", role: "form",style: "display:inline;" ,remote:true}) do |f| %>
+    <% if @anguser.errors.any? %>
+        <div class="alert alert-danger alert-dismissable" id="error_explanation" role="alert">
+          <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4><%= pluralize(@anguser.errors.count, "error") %> prohibited this product from being saved:</h4>
+
+          <ul>
+            <% @anguser.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="form-group">
+      <%= f.label :name, class: "col-sm-2 control-label" %>
+      <div class="col-sm-10">
+        <%= f.text_field :name, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group">
+      <%= f.label :status, class: "col-sm-2 control-label" %>
+      <div class="col-sm-10">
+        <%= f.select :status,['Allowed','Blocked'],{prompt:'Select user status'}, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group">
+      <%= f.label :usertype, class: "col-sm-2 control-label" %>
+      <div class="col-sm-10">
+        <%= f.select :usertype,['Admin','New'],{prompt:'Select user type'}, class: "form-control" %>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <%= f.submit class: "btn btn-primary" %>
+      <%= link_to 'Cancel','#', class: "btn btn-primary",data: {dismiss: "modal"} %>
+    </div>
+<% end %>
