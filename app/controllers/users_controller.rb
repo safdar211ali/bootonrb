@@ -3,7 +3,10 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-
+    respond_to do |format|
+      format.html
+      format.js
+    end
 end
   # GET /users/1
   # GET /users/1.json
