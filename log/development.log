@@ -105200,3 +105200,9 @@ Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
 Processing by JsonuserdataController#index as HTML
   [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
 Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:18:20 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms)
