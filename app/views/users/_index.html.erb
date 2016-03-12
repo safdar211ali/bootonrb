@@ -1,6 +1,5 @@
 
 
-<div id="listing">
 
   <div ng-app="myApp" ng-controller="myController">
     <h3> Json Users</h3>
@@ -21,6 +20,7 @@
 
 
       <tr ng-repeat="user in users">
+        <h1></h1>
         <td>{{user.name}}</td>
         <td>{{user.status}}</td>
         <td>{{user.usertype}}</td>
@@ -36,15 +36,15 @@
       </tbody>
     </table>
   </div>
-</div>
+
 
 <script>
 
 
   var app = angular.module("myApp", []);
   app.controller('myController', function ($scope, $http) {
-
-    url = 'http://bootonrb.herokuapp.com/jsonusers';
+    url =    'http://localhost:3000/jsonusers';
+//    url = 'http://bootonrb.herokuapp.com/jsonusers';
     $http.get(url).success(function (response) {
       $scope.users = response;
 

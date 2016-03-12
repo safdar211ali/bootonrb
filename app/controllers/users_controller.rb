@@ -3,11 +3,12 @@ class UsersController < ApplicationController
 
   # GET /users.json
   def index
-    respond_to do |format|
+       respond_to do |format|
       format.html
       format.js
     end
-end
+
+  end
   # GET /users/1
   # GET /users/1.json
   def show
@@ -37,11 +38,9 @@ end
 
     respond_to do |format|
       if @user.save
-        @users = User.all
         format.html
         # { redirect_to users_path, notice: 'User was successfully created.' }
-        format.json
-        format.js
+         format.js
         # { render action: 'show', status: :created, location: @user }
       else
         format.js { render :new }
@@ -62,8 +61,7 @@ end
 
         format.html
         # { redirect_to users_path, notice: 'User was successfully updated.' }
-        format.json
-        # { head :no_content }
+          # { head :no_content }
         format.js
       else
         format.js {render :new}

@@ -99590,3 +99590,5613 @@ Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:10:55 +05
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:10:55 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:16:19 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 56ms (Views: 37.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:17:28 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:17:54 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 261ms (Views: 259.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:17:54 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:17:54 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:17:55 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:17:59 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:00 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:18:02 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/67/edit" for 127.0.0.1 at 2016-03-12 17:18:07 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"67"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "67"]]
+  Rendered users/_form.html.erb (73.0ms)
+  Rendered users/_new.html.erb (76.7ms)
+  Rendered users/edit.js.erb (85.4ms)
+Completed 200 OK in 109ms (Views: 106.1ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/users/67" for 127.0.0.1 at 2016-03-12 17:18:11 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"wajid ", "status"=>"Blocked", "usertype"=>"New"}, "commit"=>"Update User", "id"=>"67"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "67"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (16.6ms)[0m  [1mUPDATE "users" SET "usertype" = ?, "updated_at" = ? WHERE "users"."id" = 67[0m  [["usertype", "New"], ["updated_at", Sat, 12 Mar 2016 12:18:11 UTC +00:00]]
+  [1m[35m (79.0ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.3ms)
+  Rendered users/update.js.erb (1.6ms)
+Completed 200 OK in 122ms (Views: 21.1ms | ActiveRecord: 95.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:18:22 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:18:25 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:19:46 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:19:49 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/67/edit" for 127.0.0.1 at 2016-03-12 17:19:52 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"67"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "67"]]
+  Rendered users/_form.html.erb (4.5ms)
+  Rendered users/_new.html.erb (5.1ms)
+  Rendered users/edit.js.erb (5.9ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/67" for 127.0.0.1 at 2016-03-12 17:19:53 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"wajid ", "status"=>"Blocked", "usertype"=>"New"}, "commit"=>"Update User", "id"=>"67"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "67"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.7ms)
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:20:23 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:20:26 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:21:06 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:21:10 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/69/edit" for 127.0.0.1 at 2016-03-12 17:21:12 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"69"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "69"]]
+  Rendered users/_form.html.erb (3.0ms)
+  Rendered users/_new.html.erb (3.5ms)
+  Rendered users/edit.js.erb (4.2ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/69" for 127.0.0.1 at 2016-03-12 17:21:20 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"aamir", "status"=>"Allowed", "usertype"=>"New"}, "commit"=>"Update User", "id"=>"69"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "69"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "usertype" = ?, "updated_at" = ? WHERE "users"."id" = 69  [["usertype", "New"], ["updated_at", Sat, 12 Mar 2016 12:21:20 UTC +00:00]]
+  [1m[36m (93.2ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.8ms)
+Completed 200 OK in 99ms (Views: 2.8ms | ActiveRecord: 93.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:04 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:23:07 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/67/edit" for 127.0.0.1 at 2016-03-12 17:23:10 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"67"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "67"]]
+  Rendered users/_form.html.erb (4.2ms)
+  Rendered users/_new.html.erb (4.8ms)
+  Rendered users/edit.js.erb (5.6ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/users/67" for 127.0.0.1 at 2016-03-12 17:23:12 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"wajid ", "status"=>"Blocked", "usertype"=>"New"}, "commit"=>"Update User", "id"=>"67"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "67"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (1.0ms)
+Completed 200 OK in 8ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/users/67" for 127.0.0.1 at 2016-03-12 17:23:16 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"wajid ", "status"=>"Blocked", "usertype"=>"New"}, "commit"=>"Update User", "id"=>"67"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "67"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.7ms)
+Completed 200 OK in 7ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:23:31 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:31 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:23:31 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:23:32 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:23:35 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/63/edit" for 127.0.0.1 at 2016-03-12 17:24:00 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"63"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "63"]]
+  Rendered users/_form.html.erb (28.4ms)
+  Rendered users/_new.html.erb (28.9ms)
+  Rendered users/edit.js.erb (29.8ms)
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/users/63" for 127.0.0.1 at 2016-03-12 17:24:01 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"safdar 222", "status"=>"Allowed", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"63"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "63"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (8.9ms)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 59ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:26:55 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:26:56 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/69/edit" for 127.0.0.1 at 2016-03-12 17:26:59 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"69"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "69"]]
+  Rendered users/_form.html.erb (3.0ms)
+  Rendered users/_new.html.erb (3.6ms)
+  Rendered users/edit.js.erb (4.4ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/69" for 127.0.0.1 at 2016-03-12 17:27:01 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"aamir", "status"=>"Allowed", "usertype"=>"New"}, "commit"=>"Update User", "id"=>"69"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "69"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.8ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:05 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:27:06 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:27:36 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:27:37 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/69/edit" for 127.0.0.1 at 2016-03-12 17:27:46 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"69"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "69"]]
+  Rendered users/_form.html.erb (3.3ms)
+  Rendered users/_new.html.erb (3.9ms)
+  Rendered users/edit.js.erb (4.6ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/69" for 127.0.0.1 at 2016-03-12 17:27:49 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"aamir", "status"=>"Allowed", "usertype"=>"New"}, "commit"=>"Update User", "id"=>"69"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "69"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.8ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 58ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:29:24 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:29:27 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 17:29:29 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  Rendered users/_form.html.erb (3.6ms)
+  Rendered users/_new.html.erb (4.1ms)
+  Rendered users/edit.js.erb (4.9ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 17:29:30 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.4ms)
+  Rendered users/update.js.erb (1.1ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:30:03 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:30:04 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:30 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:31:31 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 17:31:32 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  Rendered users/_form.html.erb (3.2ms)
+  Rendered users/_new.html.erb (3.7ms)
+  Rendered users/edit.js.erb (4.5ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 17:31:33 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.8ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:31:50 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:31:52 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/63/edit" for 127.0.0.1 at 2016-03-12 17:31:54 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"63"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "63"]]
+  Rendered users/_form.html.erb (3.8ms)
+  Rendered users/_new.html.erb (4.4ms)
+  Rendered users/edit.js.erb (5.2ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/63" for 127.0.0.1 at 2016-03-12 17:31:55 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"safdar 222", "status"=>"Allowed", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"63"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "63"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.7ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:32:23 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 17:32:25 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  Rendered users/_form.html.erb (3.0ms)
+  Rendered users/_new.html.erb (3.6ms)
+  Rendered users/edit.js.erb (4.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 17:32:26 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.7ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:32:41 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:32:42 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/69/edit" for 127.0.0.1 at 2016-03-12 17:32:44 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"69"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "69"]]
+  Rendered users/_form.html.erb (3.0ms)
+  Rendered users/_new.html.erb (3.5ms)
+  Rendered users/edit.js.erb (4.4ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:26 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:27 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:27 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:27 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:27 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:27 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:27 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:33:27 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 17:33:29 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  Rendered users/_form.html.erb (3.2ms)
+  Rendered users/_new.html.erb (3.7ms)
+  Rendered users/edit.js.erb (4.5ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 17:33:30 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.4ms)
+  Rendered users/update.js.erb (1.2ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:35 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:36 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:33:36 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:33:40 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:33:41 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/67/edit" for 127.0.0.1 at 2016-03-12 17:33:43 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"67"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "67"]]
+  Rendered users/_form.html.erb (3.4ms)
+  Rendered users/_new.html.erb (3.9ms)
+  Rendered users/edit.js.erb (4.7ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/67" for 127.0.0.1 at 2016-03-12 17:33:44 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"wajid ", "status"=>"Blocked", "usertype"=>"New"}, "commit"=>"Update User", "id"=>"67"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "67"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.7ms)
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:09 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:35:10 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:35:45 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:35:46 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/67/edit" for 127.0.0.1 at 2016-03-12 17:35:49 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"67"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "67"]]
+  Rendered users/_form.html.erb (3.2ms)
+  Rendered users/_new.html.erb (3.7ms)
+  Rendered users/edit.js.erb (4.4ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/67" for 127.0.0.1 at 2016-03-12 17:35:51 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"wajid ", "status"=>"Blocked", "usertype"=>"New"}, "commit"=>"Update User", "id"=>"67"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "67"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.4ms)
+  Rendered users/update.js.erb (1.1ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:37:52 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:37:53 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (24.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 27ms (Views: 1.8ms | ActiveRecord: 24.2ms)
+
+
+Started GET "/users/67/edit" for 127.0.0.1 at 2016-03-12 17:37:55 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"67"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "67"]]
+  Rendered users/_form.html.erb (3.3ms)
+  Rendered users/_new.html.erb (5.5ms)
+  Rendered users/edit.js.erb (6.3ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/67" for 127.0.0.1 at 2016-03-12 17:37:57 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"wajid ", "status"=>"Blocked", "usertype"=>"New"}, "commit"=>"Update User", "id"=>"67"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "67"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.8ms)
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:04 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:38:05 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/69/delete" for 127.0.0.1 at 2016-03-12 17:38:07 +0500
+Processing by UsersController#delete as JS
+  Parameters: {"id"=>"69"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "69"]]
+  Rendered users/_delete.html.erb (1.0ms)
+  Rendered users/delete.js.erb (3.9ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/users/69" for 127.0.0.1 at 2016-03-12 17:38:08 +0500
+Processing by UsersController#destroy as JS
+  Parameters: {"id"=>"69"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "69"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 69]]
+  [1m[35m (86.9ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/destroy.js.erb (1.1ms)
+Completed 200 OK in 106ms (Views: 16.0ms | ActiveRecord: 87.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:38:53 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:38:54 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:38:55 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:38:56 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:40:00 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/67/delete" for 127.0.0.1 at 2016-03-12 17:40:03 +0500
+Processing by UsersController#delete as JS
+  Parameters: {"id"=>"67"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "67"]]
+  Rendered users/_delete.html.erb (0.6ms)
+  Rendered users/delete.js.erb (1.4ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/users/67" for 127.0.0.1 at 2016-03-12 17:40:05 +0500
+Processing by UsersController#destroy as JS
+  Parameters: {"id"=>"67"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "67"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 67]]
+  [1m[35m (88.4ms)[0m  commit transaction
+  Rendered users/_index.html.erb (19.7ms)
+  Rendered users/destroy.js.erb (20.6ms)
+Completed 200 OK in 113ms (Views: 22.6ms | ActiveRecord: 88.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:28 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:29 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:29 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:40:29 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-03-12 17:40:31 +0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (3.1ms)
+  Rendered users/_new.html.erb (3.6ms)
+  Rendered users/new.js.erb (4.7ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-03-12 17:40:38 +0500
+Processing by UsersController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"aamir", "status"=>"Allowed", "usertype"=>"New"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "name", "status", "updated_at", "usertype") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Sat, 12 Mar 2016 12:40:38 UTC +00:00], ["name", "aamir"], ["status", "Allowed"], ["updated_at", Sat, 12 Mar 2016 12:40:38 UTC +00:00], ["usertype", "New"]]
+  [1m[35m (136.5ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.3ms)
+  Rendered users/create.js.erb (1.4ms)
+Completed 200 OK in 156ms (Views: 17.0ms | ActiveRecord: 136.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:40:42 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:40 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:41 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:44:42 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 17:44:44 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  Rendered users/_form.html.erb (3.3ms)
+  Rendered users/_new.html.erb (3.7ms)
+  Rendered users/edit.js.erb (4.4ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 17:44:45 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.7ms)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:48 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:49 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:49 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:49 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:49 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:49 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:49 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:44:49 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:44:49 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:04 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:45:05 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 17:45:07 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  Rendered users/_form.html.erb (3.5ms)
+  Rendered users/_new.html.erb (4.1ms)
+  Rendered users/edit.js.erb (5.0ms)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 17:45:08 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.7ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:45:46 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:45:46 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:45:46 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:46 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:46 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:46 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:46 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:46 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:46 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:45:46 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:45:47 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/63/edit" for 127.0.0.1 at 2016-03-12 17:45:49 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"63"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "63"]]
+  Rendered users/_form.html.erb (3.1ms)
+  Rendered users/_new.html.erb (3.6ms)
+  Rendered users/edit.js.erb (4.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/63" for 127.0.0.1 at 2016-03-12 17:45:51 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"safdar 222", "status"=>"Allowed", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"63"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "63"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.4ms)
+  Rendered users/update.js.erb (1.1ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:47:25 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:47:27 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 17:47:29 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  Rendered users/_form.html.erb (3.4ms)
+  Rendered users/_new.html.erb (4.0ms)
+  Rendered users/edit.js.erb (4.7ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 17:47:30 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.3ms)
+  Rendered users/update.js.erb (1.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:41 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:48:42 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 17:48:43 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  Rendered users/_form.html.erb (3.4ms)
+  Rendered users/_new.html.erb (3.9ms)
+  Rendered users/edit.js.erb (4.7ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 17:48:44 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.3ms)
+  Rendered users/update.js.erb (1.1ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:48:48 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:48:48 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:48 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:48:48 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:48 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:48 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:48:48 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:48:49 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:46 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:49:47 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 17:49:48 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  Rendered users/_form.html.erb (29.8ms)
+  Rendered users/_new.html.erb (30.4ms)
+  Rendered users/edit.js.erb (31.1ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 17:49:49 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.7ms)
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 17:49:50 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (0.6ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:49:53 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 119ms (Views: 118.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:22 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:51:23 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 17:51:25 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  Rendered users/_form.html.erb (3.6ms)
+  Rendered users/_new.html.erb (4.2ms)
+  Rendered users/edit.js.erb (5.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 17:51:26 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.3ms)
+  Rendered users/update.js.erb (1.0ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 93ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:47 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:51:48 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:53 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:51:54 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:51:59 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 17:52:06 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 17:52:07 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:30 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:06:31 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 27ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 18:06:36 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  Rendered users/_form.html.erb (3.2ms)
+  Rendered users/_new.html.erb (3.7ms)
+  Rendered users/edit.js.erb (4.6ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 18:06:54 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:06:57 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/70/edit" for 127.0.0.1 at 2016-03-12 18:07:03 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"70"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "70"]]
+  Rendered users/_form.html.erb (2.9ms)
+  Rendered users/_new.html.erb (3.5ms)
+  Rendered users/edit.js.erb (4.2ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/70" for 127.0.0.1 at 2016-03-12 18:07:09 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"aamir", "status"=>"Allowed", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"70"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "70"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "usertype" = ?, "updated_at" = ? WHERE "users"."id" = 70[0m  [["usertype", "Admin"], ["updated_at", Sat, 12 Mar 2016 13:07:09 UTC +00:00]]
+  [1m[35m (84.4ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.3ms)
+  Rendered users/update.js.erb (1.1ms)
+Completed 200 OK in 91ms (Views: 3.0ms | ActiveRecord: 84.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 18:09:24 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:09:29 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/70/edit" for 127.0.0.1 at 2016-03-12 18:09:30 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"70"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "70"]]
+  Rendered users/_form.html.erb (3.4ms)
+  Rendered users/_new.html.erb (4.0ms)
+  Rendered users/edit.js.erb (4.7ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/users/70" for 127.0.0.1 at 2016-03-12 18:09:32 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"aamir", "status"=>"Allowed", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"70"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "70"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.4ms)
+  Rendered users/update.js.erb (1.2ms)
+Completed 200 OK in 7ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 18:10:52 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:10:55 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/66/edit" for 127.0.0.1 at 2016-03-12 18:10:57 +0500
+Processing by UsersController#edit as JS
+  Parameters: {"id"=>"66"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "66"]]
+  Rendered users/_form.html.erb (3.5ms)
+  Rendered users/_new.html.erb (4.2ms)
+  Rendered users/edit.js.erb (5.0ms)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/users/66" for 127.0.0.1 at 2016-03-12 18:10:59 +0500
+Processing by UsersController#update as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ali ali", "status"=>"Blocked", "usertype"=>"Admin"}, "commit"=>"Update User", "id"=>"66"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "66"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/update.js.erb (1.3ms)
+Completed 200 OK in 9ms (Views: 3.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:07 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:11:10 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 18:11:43 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 18:11:44 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:11:46 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-03-12 18:11:49 +0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (3.5ms)
+  Rendered users/_new.html.erb (4.1ms)
+  Rendered users/new.js.erb (5.7ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-03-12 18:11:58 +0500
+Processing by UsersController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"name"=>"ahmed", "status"=>"Allowed", "usertype"=>"Admin"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "name", "status", "updated_at", "usertype") VALUES (?, ?, ?, ?, ?)  [["created_at", Sat, 12 Mar 2016 13:11:58 UTC +00:00], ["name", "ahmed"], ["status", "Allowed"], ["updated_at", Sat, 12 Mar 2016 13:11:58 UTC +00:00], ["usertype", "Admin"]]
+  [1m[36m (115.5ms)[0m  [1mcommit transaction[0m
+  Rendered users/_index.html.erb (0.0ms)
+  Rendered users/create.js.erb (0.9ms)
+Completed 200 OK in 122ms (Views: 3.0ms | ActiveRecord: 116.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 18:13:15 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:13:18 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 18:14:56 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:14:58 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 18:16:30 +0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 500 Internal Server Error in 18ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/users_controller.rb:8:in `index'
+
+
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 18:17:13 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 18:17:13 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:13 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 18:17:13 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:13 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:13 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:13 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 18:17:13 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:13 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:13 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:14 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:17:15 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 20ms (Views: 16.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2016-03-12 18:17:15 +0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/angusers.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/angularjs.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/visuals.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/login.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/getjson.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/jsonuserdata.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+
+
+Started GET "/jsonusers" for 127.0.0.1 at 2016-03-12 18:17:23 +0500
+Processing by JsonuserdataController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.2ms)
