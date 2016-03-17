@@ -105434,3 +105434,10 @@ ActionController::RoutingError (No route matches [GET] "/jsonusers/63"):
   Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
   Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
   Rendered /home/ali/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateJsonuserdata (20160317015955)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (33.7ms)[0m  [1mCREATE TABLE "jsonuserdata" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "usertype" varchar(255), "status" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160317015955"]]
+  [1m[36m (88.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
