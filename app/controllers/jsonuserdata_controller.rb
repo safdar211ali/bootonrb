@@ -5,6 +5,7 @@ class JsonuserdataController < ApplicationController
   # GET /jsonuserdata.json
   def index
     @jsonuserdata = Jsonuserdatum.all
+    render json: @jsonuserdata
   end
 
   # GET /jsonuserdata/1

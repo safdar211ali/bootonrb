@@ -105441,3 +105441,10 @@ Migrating to CreateJsonuserdata (20160317015955)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160317015955"]]
   [1m[36m (88.2ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/jsonuserdata" for 127.0.0.1 at 2016-03-17 07:08:21 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JsonuserdataController#index as HTML
+  [1m[35mJsonuserdatum Load (0.2ms)[0m  SELECT "jsonuserdata".* FROM "jsonuserdata"
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 0.2ms)
