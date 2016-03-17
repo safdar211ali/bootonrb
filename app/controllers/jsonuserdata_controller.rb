@@ -29,8 +29,11 @@ class JsonuserdataController < ApplicationController
 
     respond_to do |format|
       if @jsonuserdatum.save
-        format.html { redirect_to @jsonuserdatum, notice: 'Jsonuserdatum was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @jsonuserdatum }
+        format.html
+        format.js
+        # { redirect_to @jsonuserdatum, notice: 'Jsonuserdatum was successfully created.' }
+        format.json
+        # { render action: 'show', status: :created, location: @jsonuserdatum }
       else
         format.html { render action: 'new' }
         format.json { render json: @jsonuserdatum.errors, status: :unprocessable_entity }
