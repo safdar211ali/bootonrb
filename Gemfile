@@ -54,3 +54,5 @@ end
 # CUSTOM GEMS
 gem 'bootstrap-generators'
 gem 'bootstrap-sass-extras'
+
+gem 'activeadmin', github: 'gregbell/active_admin'
