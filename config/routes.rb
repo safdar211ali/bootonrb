@@ -1,5 +1,5 @@
 Bootonrb::Application.routes.draw do
-  ActiveAdmin.routes(self)
+
   resources :jsonuserdata
 
   get 'angusers/new' => 'angusers#new',via: :get
